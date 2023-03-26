@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticaDescuentoAutomovil</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/dark.css">
+    <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+
+    <h1>Práctica, ¿Que modelo de automóvil tiene un descuento?</h1>
+    <p class="descripcion"> El usuario ingresará la marca y el modelo de un auto, si la marca y el modelo es Ford Fiesta
+        ,
+        se le muestre un mensaje de que se le otorga un descuento del 5%, Si la marca y el modelo es Ford Focus, se le
+        de
+        un descuento del 10 %, para cualquier otro modelo o marca se le asigne un descuento del 3%,</p>
+
+    <div class="modo" id="modo">
+        <i class="fas fa-toggle-on"></i>
+    </div>
+
+    <section class="card">
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="C:\Users\efren\Documents\PRACTICAS\HTML5\IMAGEN/FOTO.png" alt="">
+                <h2>
+                    <center>Efren Antonio Bolaños Uscanga</center>
+                </h2>
+                <p>Desarrollador web</p>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <p>
+                    <center>Estudiante del Tecnológico de Estudios Superiores de Ecatepec</center>
+                </p>
+                <br><br>
+                <p>
+                    <center>Ingeniero en Informática</center>
+                </p>
+            </div>
+        </div>
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <h2>Encontrar descuentos de automoviles</h2>
+                <br>
+                <p>A continuación ingrese lo requerido: </p>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+
+                <body>
+                    <form id="auto-form">
+                        <label for="marca-input">Introduzca una marca de un automóvil:</label>
+                        <br><br>
+                        <input type="text" id="marca-input" name="marca" class="label">
+                        <br><br>
+                        <label for="modelo-input">Introduzca un modelo de un automóvil:</label>
+                        <br><br>
+                        <input type="text" id="modelo-input" name="modelo" class="label">
+                        <br><br>
+                        <hr>
+                </body>
+            </div>
+            <div class="card__button">
+                <button class="enlace" type="submit">Calcular descuento</button>
+                <hr>
+                <p id="descuento-output"></p>
+                <script src="../JS/descuento.js"></script>
+            </div>
+            </form>
+        </div>
+    </section> <br><br><br><br>
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>

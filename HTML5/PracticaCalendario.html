@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticaCalendario</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/dark.css">
+    <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+
+    <h1>Práctica, ¿Que días tiene el mes?</h1>
+    <p class="descripcion"> El usuario deebe de ingresar el año y el mes,y debe de mostrar su calendario</p>
+
+    <div class="modo" id="modo">
+        <i class="fas fa-toggle-on"></i>
+    </div>
+
+    <section class="card">
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="C:\Users\efren\Documents\PRACTICAS\HTML5\IMAGEN/FOTO.png" alt="">
+                <h2>
+                    <center>Efren Antonio Bolaños Uscanga</center>
+                </h2>
+                <p>Desarrollador web</p>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <p>
+                    <center>Estudiante del Tecnológico de Estudios Superiores de Ecatepec</center>
+                </p>
+                <br><br>
+                <p>
+                    <center>Ingeniero en Informática</center>
+                </p>
+            </div>
+        </div>
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <h2>Encontrar el Mes:</h2>
+                <br>
+                <p>A continuación ingrese lo requerido: </p>
+                <script src="../JS/calendario.js"></script>
+            </div>
+            <hr>
+            <div>
+
+                <body>
+                    <form id="auto-form">
+                        <label>Eliga el Mes a buscar:</label><br><br>
+                        <select name="buscames" id="num1" class="label">
+                            <option value="0">Enero</option>
+                            <option value="1">Febrero</option>
+                            <option value="2">Marzo</option>
+                            <option value="3">Abril</option>
+                            <option value="4">Mayo</option>
+                            <option value="5">Junio</option>
+                            <option value="6">Julio</option>
+                            <option value="7">Agosto</option>
+                            <option value="8">Septiembre</option>
+                            <option value="9">Octubre</option>
+                            <option value="10">Noviembre</option>
+                            <option value="11">Diciembre</option>
+                          </select>
+                          <br><br>
+                        <label>Introduzca el año a buscar:</label><br><br>
+                        <input type="number" id="num2" class="label">
+                        <br><br>
+                        <hr>
+                </body>
+            </div>
+            <div class="card__button">
+                <input class="enlace" type="button" value="Buscar Calendario"
+                    onclick="calendario()">
+                <hr>
+                <p id="resultado"></p>
+            </div>
+            </form>
+            <div id="calendario">
+                <table id="table">
+                    <tr>
+                        <td colspan="7" id="fechaActual">sd</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section> <br><br><br><br>
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticaNumeroMayor</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/dark.css">
+    <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+
+    <h1>Práctica, ¿Cuál es el número mayor?</h1>
+    <p class="descripcion">Encontrar el número mayor de dos números ingresados por el usuario</p>
+
+    <div class="modo" id="modo">
+        <i class="fas fa-toggle-on"></i>
+    </div>
+
+    <section class="card">
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="C:\Users\efren\Documents\PRACTICAS\HTML5\IMAGEN/FOTO.png" alt="">
+                <h2>
+                    <center>Efren Antonio Bolaños Uscanga</center>
+                </h2>
+                <p>Desarrollador web</p>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <p>
+                    <center>Estudiante del Tecnológico de Estudios Superiores de Ecatepec</center>
+                </p>
+                <br><br>
+                <p>
+                    <center>Ingeniero en Informática</center>
+                </p>
+            </div>
+        </div>
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <h2>Encontrar el número mayor o menor</h2>
+                <br>
+                <p>A continuación ingrese lo requerido: </p>
+                <script src="../JS/encontrar.js"></script>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <body>
+                    <form>
+                        <label>Introduzca el primer número:</label><br><br>
+                        <input type="number" id="num1" class="label">
+                        <br><br>
+                        <label>Introduzca el segundo número:</label><br><br>
+                        <input type="number" id="num2" class="label">
+                        <br><br>
+                        <hr>
+                </body>
+            </div>
+            <div class="card__button">
+                <input class="enlace" type="button" value="Encontrar el número mayor"
+                    onclick="encontrarMayor()">
+                <hr>
+                <p id="resultado"></p>
+            </div>
+            </form>
+        </div>
+    </section> <br><br><br><br>
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>

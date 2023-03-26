@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticaPromedioCalificacion</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/dark.css">
+    <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+
+    <h1>Práctica, ¿Puedo estar aprobado o reprobado?</h1>
+    <p class="descripcion">El formulario debe leer tres calificaciones de un alumno e indicar el promedio del alumno y en caso de ser el promedio 
+        reprobatorio diga si esta suspendido o aprobado en caso de ser aprobatorio</p>
+
+    <div class="modo" id="modo">
+        <i class="fas fa-toggle-on"></i>
+    </div>
+
+    <section class="card">
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="C:\Users\efren\Documents\PRACTICAS\HTML5\IMAGEN/FOTO.png" alt="">
+                <h2>
+                    <center>Efren Antonio Bolaños Uscanga</center>
+                </h2>
+                <p>Desarrollador web</p>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <p>
+                    <center>Estudiante del Tecnológico de Estudios Superiores de Ecatepec</center>
+                </p>
+                <br><br>
+                <p>
+                    <center>Ingeniero en Informática</center>
+                </p>
+            </div>
+        </div>
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <h2>Promediar mis calificaciones</h2>
+                <br>
+                <p>A continuación ingrese lo requerido: </p>
+                <script src="../JS/calificaciones.js"></script>
+            </div>
+            <hr>
+            <div class="card__descripcion">
+                <body>
+                    <form>
+                        <label for="calificacion1">Introduzca la calificación 1:</label>
+                        <br><br>
+                        <input type="number" id="calificacion1" name="calificacion1" class="label">
+                        <br><br>
+                        <label for="calificacion2">Introduzca la calificación 2:</label>
+                        <br><br>
+                        <input type="number" id="calificacion2" name="calificacion2" class="label">
+                        <br><br>
+                        <label for="calificacion3">Introduzca la calificación 3:</label>
+                        <br><br>
+                        <input type="number" id="calificacion3" name="calificacion3" class="label">
+                        <br><br>
+                        <hr>
+                </body>
+            </div>
+            <div class="card__button">
+                <input class="enlace" type="button" value="Calcular promedio" onclick="calcularPromedio()">
+                <hr>
+                <p id="resultado"></p>
+            </div>
+            </form>
+        </div>
+    </section> <br><br><br><br>
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>
