@@ -10,6 +10,6 @@ function encontrarMayor() {
     } else {
       resultado = "Los números son iguales";
     }
-
+ 
     document.getElementById("resultado").innerHTML = resultado;
   }

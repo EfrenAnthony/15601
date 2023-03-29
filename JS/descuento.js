@@ -5,7 +5,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   const marca = form.elements.marca.value.toLowerCase();
   const modelo = form.elements.modelo.value.toLowerCase();
-  let descuento;
+  let descuento; 
 
   if (marca === 'ford' || marca === 'Ford' || marca === 'FORD') {
     if (modelo === 'fiesta'  || modelo === 'Fiesta' || modelo === 'FIESTA') {

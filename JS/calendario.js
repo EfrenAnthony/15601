@@ -4,7 +4,7 @@ function calendario(){
    return d.getDate();
 }
    fecha = new Date();
-   fechaActual(fecha);
+   fechaActual(fecha); 
    var dias = fecha.monthDays();
    var nombreDias = ['Lu','Ma','Mi','Ju','Vi','Sa','Do'];
    var diacomienzo = empezarDia(fecha); escribirCalendario(fecha,nombreDias,diacomienzo,dias);

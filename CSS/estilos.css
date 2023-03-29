@@ -3,9 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 
-h1{
+h1,h2{
     text-align: center;
     padding: 10px;
     color: rgb(97, 96, 96);
@@ -39,6 +39,22 @@ h1{
 }
 
 .card__perfil:hover img{
+    transform: rotate(0);
+}
+
+.card__perfil1{
+    width: 700px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(201, 201, 201);
+    border: solid rgba(3, 133, 255, 0) 2px;
+    border-radius: 10px;
+}
+
+.card__perfil1:hover{
+    border: solid rgb(3, 133, 255) 2px;
+}
+
+.card__perfil1:hover img{
     transform: rotate(0);
 }
 

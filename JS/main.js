@@ -10,6 +10,6 @@ let valor=localStorage.getItem("modo")
 
 if (valor=="true") {
     body.classList.add("dark")
-} else {
+} else { 
     body.classList.remove("dark")
 }

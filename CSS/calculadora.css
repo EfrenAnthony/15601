@@ -1,0 +1,51 @@
+.diseño input[type=text] {
+    height: 30%;
+    width: 100%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(185, 194, 202);
+    color: black;
+    padding: 0.5px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+.diseño input[type=button] {
+    width: 21%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+.diseño input[type=reset] {
+    width: 90%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    border: 0;
+}
+
+.diseño .red {
+    background-color: rgb(219, 37, 13) !important;
+    color: white !important;
+}
+
+.diseño .gray {
+    background-color: rgb(51, 51, 51) !important;
+    color: white !important;
+}
+
+.diseño .green {
+    background-color: rgb(37, 145, 11) !important;
+    color: white !important;
+}
